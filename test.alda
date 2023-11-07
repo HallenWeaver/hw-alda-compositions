@@ -1,0 +1,18 @@
+(tempo! 120)
+
+vibraphone:
+    o3
+    [[a8  b > c d e < r]*3 > a r g r*4 <]*2
+    %second
+    [> a e c d e < r]*4
+
+
+midi-flute:
+    o3
+    @second
+    [> a e c d e < r]*4
+
+violin:
+    o3
+    @second
+    [> a e c d e < r]*4

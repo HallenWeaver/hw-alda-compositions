@@ -1,0 +1,8 @@
+theLick = d8 e f g e4 c8 d8~1
+
+piano:
+  theLick *16
+
+tuba:
+  theLick *8
+  e4 e e e e e e e

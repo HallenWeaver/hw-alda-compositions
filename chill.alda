@@ -1,0 +1,5 @@
+(tempo! 80)
+
+midi-saw-wave:
+    o4
+    [e8 a+16 b24 r b r*2 b32 d16 e8]*2

@@ -1,18 +1,27 @@
 (tempo! 120)
 
+soli = (vol 60)
+
+intro1 = [[a8  b > c d e < r]*3 > a r g r*4 <]
+intro2 = [> a8 e c d e < r]
+
 vibraphone:
     o3
-    [[a8  b > c d e < r]*3 > a r g r*4 <]*2
+    intro1*2
+    %first
+    intro1*2
     %second
-    [> a e c d e < r]*4
+    soli
+    intro2*4 r*2 intro2*4 
 
-
-midi-flute:
+midi-flute/violin:
     o3
     @second
-    [> a e c d e < r]*4
+    intro2*4 r*2 intro2*4 
 
-violin:
-    o3
+midi-pizzicato-strings:
+    o2
+    @first
+    intro1*2
     @second
-    [> a e c d e < r]*4
+    intro2*4 r*2 intro2*4 
